@@ -14,9 +14,9 @@ def display_seat_map(aA, aB, aC, aD, aE, aF, aG, aH, aI, aJ, aK, aL, aM, aN, aO,
     for r in range (1, 8):
         print("   ", r, " ", aA[r],"", aB[r], "", aC[r], "", aD[r], "", aE[r], "", aF[r], "", aG[r], "", aH[r], "", aI[r], "", aJ[r], "", aK[r], "", aL[r], "", aM[r], "", aN[r], "", aO[r], "", aP[r], "", aQ[r], "", aR[r], "", aS[r], "", aT[r], "", aU[r], "", aV[r], "", aW[r], "", aX[r], "", aY[r], "", aZ[r], "", aAA[r], "", aAB[r], "", aAC[r], "", aAD[r])
 
-aisleA = ["","A","A","A","A","A","A","A"]
-aisleB = ["","B","B","B","B","B","B","B"]
-aisleC = ["","C","C","C","C","C","C","C"]
+aisleA = ["","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A"]
+aisleB = ["","B","B","B","B","B","B","B","B","B","B","B","B","B","B","B"]
+aisleC = ["","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C"]
 aisleD = ["","D","D","D","D","D","D","D"]
 aisleE = ["","E","E","E","E","E","E","E"]
 aisleF = ["","F","F","F","F","F","F","F"]
