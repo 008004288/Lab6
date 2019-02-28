@@ -11,39 +11,39 @@ total = 0
 
 #Code#
 def display_seat_map(aA, aB, aC, aD, aE, aF, aG, aH, aI, aJ, aK, aL, aM, aN, aO, aP, aQ, aR, aS, aT, aU, aV, aW, aX, aY, aZ, aAA, aAB, aAC, aAD):
-    for r in range (1, 8):
+    for r in range (1, 16):
         print("   ", r, " ", aA[r],"", aB[r], "", aC[r], "", aD[r], "", aE[r], "", aF[r], "", aG[r], "", aH[r], "", aI[r], "", aJ[r], "", aK[r], "", aL[r], "", aM[r], "", aN[r], "", aO[r], "", aP[r], "", aQ[r], "", aR[r], "", aS[r], "", aT[r], "", aU[r], "", aV[r], "", aW[r], "", aX[r], "", aY[r], "", aZ[r], "", aAA[r], "", aAB[r], "", aAC[r], "", aAD[r])
 
 aisleA = ["","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A"]
 aisleB = ["","B","B","B","B","B","B","B","B","B","B","B","B","B","B","B"]
 aisleC = ["","C","C","C","C","C","C","C","C","C","C","C","C","C","C","C"]
-aisleD = ["","D","D","D","D","D","D","D"]
-aisleE = ["","E","E","E","E","E","E","E"]
-aisleF = ["","F","F","F","F","F","F","F"]
-aisleG = ["","G","G","G","G","G","G","G"]
-aisleH = ["","H","H","H","H","H","H","H"]
-aisleI = ["","I","I","I","I","I","I","I"]
-aisleJ = ["","J","J","J","J","J","J","J"]
-aisleK = ["","K","K","K","K","K","K","K"]
-aisleL = ["","L","L","L","L","L","L","L"]
-aisleM = ["","M","M","M","M","M","M","M"]
-aisleN = ["","N","N","N","N","N","N","N"]
-aisleO = ["","O","O","O","O","O","O","O"]
-aisleP = ["","P","P","P","P","P","P","P"]
-aisleQ = ["","Q","Q","Q","Q","Q","Q","Q"]
-aisleR = ["","R","R","R","R","R","R","R"]
-aisleS = ["","S","S","S","S","S","S","S"]
-aisleT = ["","T","T","T","T","T","T","T"]
-aisleU = ["","U","U","U","U","U","U","U"]
-aisleV = ["","V","V","V","V","V","V","V"]
-aisleW = ["","W","W","W","W","W","W","W"]
-aisleX = ["","X","X","X","X","X","X","X"]
-aisleY = ["","Y","Y","Y","Y","Y","Y","Y"]
-aisleZ = ["","Z","Z","Z","Z","Z","Z","Z"]
-aisleAA = ["","AA","AA","AA","AA","AA","AA","AA"]
-aisleAB = ["","AB","AB","AB","AB","AB","AB","AB"]
-aisleAC = ["","AC","AC","AC","AC","AC","AC","AC"]
-aisleAD = ["","AD","AD","AD","AD","AD","AD","AD"]
+aisleD = ["","D","D","D","D","D","D","D","D","D","D","D","D","D","D","D"]
+aisleE = ["","E","E","E","E","E","E","E","E","E","E","E","E","E","E","E"]
+aisleF = ["","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F"]
+aisleG = ["","G","G","G","G","G","G","G","G","G","G","G","G","G","G","G"]
+aisleH = ["","H","H","H","H","H","H","H","H","H","H","H","H","H","H","H"]
+aisleI = ["","I","I","I","I","I","I","I","I","I","I","I","I","I","I","I"]
+aisleJ = ["","J","J","J","J","J","J","J","J","J","J","J","J","J","J","J"]
+aisleK = ["","K","K","K","K","K","K","K","K","K","K","K","K","K","K","K"]
+aisleL = ["","L","L","L","L","L","L","L","L","L","L","L","L","L","L","L"]
+aisleM = ["","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M"]
+aisleN = ["","N","N","N","N","N","N","N","N","N","N","N","N","N","N","N"]
+aisleO = ["","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O"]
+aisleP = ["","P","P","P","P","P","P","P","P","P","P","P","P","P","P","P"]
+aisleQ = ["","Q","Q","Q","Q","Q","Q","Q","Q","Q","Q","Q","Q","Q","Q","Q"]
+aisleR = ["","R","R","R","R","R","R","R","R","R","R","R","R","R","R","R"]
+aisleS = ["","S","S","S","S","S","S","S","S","S","S","S","S","S","S","S"]
+aisleT = ["","T","T","T","T","T","T","T","T","T","T","T","T","T","T","T"]
+aisleU = ["","U","U","U","U","U","U","U","U","U","U","U","U","U","U","U"]
+aisleV = ["","V","V","V","V","V","V","V","V","V","V","V","V","V","V","V"]
+aisleW = ["","W","W","W","W","W","W","W","W","W","W","W","W","W","W","W"]
+aisleX = ["","X","X","X","X","X","X","X","X","X","X","X","X","X","X","X"]
+aisleY = ["","Y","Y","Y","Y","Y","Y","Y","Y","Y","Y","Y","Y","Y","Y","Y"]
+aisleZ = ["","Z","Z","Z","Z","Z","Z","Z","Z","Z","Z","Z","Z","Z","Z","Z"]
+aisleAA = ["","AA","AA","AA","AA","AA","AA","AA","AA","AA","AA","AA","AA","AA","AA","AA"]
+aisleAB = ["","AB","AB","AB","AB","AB","AB","AB","AB","AB","AB","AB","AB","AB","AB","AB"]
+aisleAC = ["","AC","AC","AC","AC","AC","AC","AC","AC","AC","AC","AC","AC","AC","AC","AC"]
+aisleAD = ["","AD","AD","AD","AD","AD","AD","AD","AD","AD","AD","AD","AD","AD","AD","AD"]
 
 def seats():
     data = input("Enter another seat? (y/n): ").lower()
@@ -230,14 +230,6 @@ while(more_data == "y"):
                 aisleV[row]="X"
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
-    elif seat=="E":
-            if aisleD[row]=="X":
-                os.system('cls')
-                print("That seat is already assigned.")
-            else:
-                aisleD[row]="X"
-                os.system('cls')
-                display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="W":
             if aisleW[row]=="X":
                 os.system('cls')
@@ -312,6 +304,6 @@ while(more_data == "y"):
     if row=="A":
         total = total + 200
 os.system('cls')
-print("Airplane Seating Chart: ")
+print("Movie Theater Seating Selection: ")
 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
 print(total)
