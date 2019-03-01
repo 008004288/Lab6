@@ -75,6 +75,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleB[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="C":
@@ -83,6 +89,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleC[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="D":
             if aisleD[row]=="X":
@@ -90,6 +102,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleD[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="E":
@@ -98,6 +116,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleE[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="F":
@@ -106,6 +130,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleF[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="G":
@@ -114,6 +144,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleG[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="H":
@@ -121,6 +157,12 @@ while(more_data == "y"):
                 os.system('cls')
                 print("That seat is already assigned.")
             else:
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 aisleH[row]="X"
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
@@ -130,6 +172,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleI[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="J":
@@ -138,6 +186,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleJ[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="K":
@@ -146,6 +200,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleK[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="L":
@@ -154,6 +214,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleL[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="M":
@@ -162,6 +228,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleM[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="N":
@@ -170,6 +242,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleN[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="O":
@@ -178,6 +256,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleO[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="P":
@@ -186,6 +270,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleP[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="Q":
@@ -194,6 +284,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleQ[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="R":
@@ -202,6 +298,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleR[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="S":
@@ -210,6 +312,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleS[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="T":
@@ -218,6 +326,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleT[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="U":
@@ -226,6 +340,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleU[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="V":
@@ -234,6 +354,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleV[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="W":
@@ -242,6 +368,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleW[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="X":
@@ -250,6 +382,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleX[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="Y":
@@ -258,6 +396,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleY[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="Z":
@@ -266,6 +410,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleZ[row]="X"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="AA":
@@ -274,6 +424,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleAA[row]="XX"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="AB":
@@ -282,6 +438,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleAB[row]="XX"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="AC":
@@ -290,6 +452,12 @@ while(more_data == "y"):
                 print("That seat is already assigned.")
             else:
                 aisleAC[row]="XX"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="AD":
@@ -297,7 +465,13 @@ while(more_data == "y"):
                 os.system('cls')
                 print("That seat is already assigned.")
             else:
-                aisleAD[row]="X"
+                aisleAD[row]="XX"
+                if row==1 or row==2 or row==3 or row ==4 or row==5:
+                    cost = cost + 200
+                if row==6 or row==7 or row==8 or row ==9 or row==10:
+                    cost = cost + 175
+                if row==11 or row==12 or row==13 or row ==14 or row==15:
+                    cost = cost + 150
                 os.system('cls')
                 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     else:
