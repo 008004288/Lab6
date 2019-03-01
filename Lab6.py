@@ -304,6 +304,6 @@ while(more_data == "y"):
     if row=="A":
         total = total + 200
 os.system('cls')
-print("Movie Theater Seating Selection: ")
+print("Movie Theater Seating Selection ")
 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
 print(total)
