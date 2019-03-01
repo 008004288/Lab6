@@ -5,7 +5,7 @@
 import os
 
 #Variables#
-total = 0
+cost = 0
 
 #Functions#
 
@@ -62,6 +62,12 @@ while(more_data == "y"):
             print("That seat is already assigned.")
         else:
             aisleA[row]="X"
+            if row==1 or row==2 or row==3 or row ==4 or row==5:
+                cost = cost + 200
+            if row==6 or row==7 or row==8 or row ==9 or row==10:
+                cost = cost + 175
+            if row==11 or row==12 or row==13 or row ==14 or row==15:
+                cost = cost + 150
             os.system('cls')
             display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
     elif seat=="B":
@@ -298,12 +304,10 @@ while(more_data == "y"):
             print("Incorrect seat selection.")
             os.system('cls')
             display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
-            print(total)
+            print(cost)
     more_data = seats()
-    print(total)
-    if row=="A":
-        total = total + 200
+    print(cost)
 os.system('cls')
 print("Movie Theater Seating Selection ")
 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
-print(total)
+print(cost)
