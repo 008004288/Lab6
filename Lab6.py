@@ -55,6 +55,7 @@ more_data = "y"
 while(more_data == "y"):
     os.system('cls')
     display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
+    print("Total Cost: $",cost, sep="")
     row = int(input("Row number: ").upper())
     seat=input("Seat number: ")
     if seat=="A":
@@ -478,10 +479,10 @@ while(more_data == "y"):
             print("Incorrect seat selection.")
             os.system('cls')
             display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
-            print(cost)
+            print("Total Cost: $",cost, sep="")
     more_data = seats()
-    print(cost)
+    print("Total Cost: $",cost, sep="")
 os.system('cls')
 print("Movie Theater Seating Selection ")
 display_seat_map(aisleA, aisleB, aisleC, aisleD, aisleE, aisleF, aisleG, aisleH, aisleI, aisleJ, aisleK, aisleL, aisleM, aisleN, aisleO, aisleP, aisleQ, aisleR, aisleS, aisleT, aisleU, aisleV, aisleW, aisleX, aisleY, aisleZ, aisleAA, aisleAB, aisleAC, aisleAD)
-print(cost)
+print("Total Cost: $",cost, sep="")
